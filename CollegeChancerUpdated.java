@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 
 public class Main {
 
-    // Represents the admission criteria for a college.
+    // Represents the admission criteria for a college
     static class CollegeStats {
         double minGPA;
         double maxGPA;
@@ -17,7 +17,7 @@ public class Main {
         int minACT;
         int maxACT;
         boolean requiresExtracurriculars;
-        int minExtraScore; // Minimum extracurricular score required (if applicable)
+        int minExtraScore; // Minimum extracurricular score required 
 
         CollegeStats(double minGPA, double maxGPA, int minSAT, int maxSAT, int minACT, int maxACT,
                      boolean requiresExtracurriculars, int minExtraScore) {
